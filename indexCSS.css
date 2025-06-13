@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+    background-image: url("https://i.pinimg.com/736x/50/47/03/50470323b465a542651e935045a372b6.jpg") ;
+    color: aliceblue;
+    font-family: "Gill Sans", sans-serif;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #b6cde1;
+    text-shadow: 0 0 5px #8aa7c6;
+}
+
+h1 { 
+    font-size: 35px; 
+    margin-bottom: 10px; 
+}
+
+h2 { 
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    margin-top: 0;
+}
+
+h2 a { 
+    color: inherit; 
+    text-decoration: none; 
+    transition: color 0.1s; 
+}
+
+h2 a:hover {
+    color: #88369e; 
+}
+
+p { 
+    margin-bottom: 15px; 
+    text-align: justify; 
+}
+/* Зображення гол сторінки */
+
+.main_img {
+    float: left;
+    width: 370px;
+    height: 200px;
+    border: 6px solid #cfe8ff;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+/* Навігація */
+
+.navigation {
+    text-align: center; 
+    margin-top: 20px;  
+}
+
+.navigation a {
+    display: inline-block; 
+    padding: 10px 20px;  
+    background-color: #4b7199;
+    color: rgb(216, 208, 236);       
+    text-decoration: none; 
+    border-radius: 5px;    
+    margin: 5px;      
+    font-family: sans-serif; 
+    font-size: 16px;    
+    transition: background-color 0.3s ease; 
+}
+
+.navigation a:hover {
+    background-color: #9865ac; 
+    transform: scale(1.05);
+}
+
+/* сторінка контакти */
+
+.contact_grid {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: center; 
+   
+}  
+
+.contact_item {
+    text-align: center; 
+    padding-top: 15px;
+}
+
+.contact_item img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact_item a, .contact_item span {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block; 
+}
+
+.contact_item a:hover {
+    color: #9865ac; 
+    transform: scale(1.05);
+}
+/* сторінка галерея */
+
+.gallery_grid {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}  
+
+.gallery_grid div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}  
+
+.gallery_grid img:hover {
+    outline: 3px solid rgb(141, 65, 177); 
+    transform: scale(1.05);
+}
+
+.gallery_grid img{
+    width: 235px; 
+    height: 305px;
+    object-fit: cover;
+   }
